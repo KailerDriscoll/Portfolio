@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+html{
+    overflow: hidden;
+}
+
+.wrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1.5vw 20vw auto 1.5vw;
+    grid-template-rows: 100px 1vh auto 1vh 10vh;
+    background-color: #4B4F56;
+}
+.header{
+    position: sticky;
+    grid-column: 1 / 5;
+    grid-row: 1;
+    /* background-color: #0B0E0C; */
+    border: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    border-color: #ffffff;
+    box-shadow: 0px 3px 10px #000;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.menu-options{
+    margin-right: 10px;
+}
+.menu-options b{
+    padding: 0 10px;
+}
+.left-column{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: #3D3D3D;
+    border-radius: 24px;
+}
+.right-column{
+    grid-column: 4;
+    grid-row: 3;
+    z-index: 1;
+}
+/* .navbar{
+    
+} */
+/* .left-menu{
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 6%;
+    position: sticky;
+    top: 13vh;
+    background-color: white;
+} */
+.text{
+    color: #ffffff;
+    font-family: 'Dela Gothic One';
+    /* font-style: normal; */
+    font-size: 2rem;
+    margin-top: 2px;
+}
+
+.title{
+    position: absolute;
+    width: 606px;
+    height: 104px;
+    left: 26px;
+    top: 11px;
+
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 104px;
+}
+
+/* .button{
+    border: solid;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: #ffffff;
+} */
+
+/* .portfolio-button{
+    position: relative;
+
+} */
